@@ -1,0 +1,82 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="folderGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4c7c3"/>
+      <stop offset="100%" stop-color="#e8a9a3"/>
+    </linearGradient>
+
+    <linearGradient id="innerHighlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7f3e8"/>
+      <stop offset="100%" stop-color="#efe8d8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Folder base -->
+  <path d="
+    M64 120
+    Q64 80 104 80
+    H220
+    Q240 80 255 100
+    L280 130
+    H408
+    Q448 130 448 170
+    V408
+    Q448 448 408 448
+    H104
+    Q64 448 64 408
+    Z"
+    fill="url(#folderGradient)"
+  />
+
+  <!-- Top highlight -->
+  <path d="
+    M80 130
+    Q80 100 110 100
+    H210
+    Q230 100 245 120
+    L265 140
+    H400
+    Q430 140 430 170
+    L430 180
+    Q300 170 80 200
+    Z"
+    fill="url(#innerHighlight)"
+    opacity="0.9"
+  />
+
+  <!-- Bow -->
+  <g fill="url(#innerHighlight)">
+    <!-- Center knot -->
+    <circle cx="256" cy="290" r="12"/>
+
+    <!-- Left loop -->
+    <path d="
+      M256 290
+      C220 250, 180 250, 180 290
+      C180 330, 220 330, 256 290
+    " />
+
+    <!-- Right loop -->
+    <path d="
+      M256 290
+      C292 250, 332 250, 332 290
+      C332 330, 292 330, 256 290
+    " />
+
+    <!-- Left ribbon -->
+    <path d="
+      M245 300
+      C230 330, 210 360, 200 380
+      C195 390, 210 395, 220 385
+      C240 360, 255 320, 256 305
+    "/>
+
+    <!-- Right ribbon -->
+    <path d="
+      M267 300
+      C282 330, 302 360, 312 380
+      C317 390, 302 395, 292 385
+      C272 360, 257 320, 256 305
+    "/>
+  </g>
+</svg>
