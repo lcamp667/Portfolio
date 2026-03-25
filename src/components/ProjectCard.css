@@ -1,0 +1,26 @@
+/* .card {
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    border-radius: 8px;
+    align-content: start;
+    justify-items: left;
+    align-items: vertical;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+}
+
+.card-icon {
+    margin: 16px;
+}
+
+.card-content {
+    text-align: left;
+} */
+
+.card-title {
+    font-family: 'Fuzzy Bubbles';
+}
