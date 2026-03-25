@@ -43,6 +43,17 @@
 
 .title {
     font-family: 'Fuzzy Bubbles';
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
     text-align: center;
 }
 

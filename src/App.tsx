@@ -1,4 +1,5 @@
 import './App.css'
+import './components/Container.css'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
@@ -10,8 +11,7 @@ import Nav from './components/Navbar'
 import { useRef } from 'react'
 
 function App() {
-  // const targetRef = useRef<HTMLDivElement>(null);
-
+  
   const targetRef = {
     about: useRef<HTMLDivElement>(null),
     works: useRef<HTMLDivElement>(null),
@@ -34,7 +34,7 @@ function App() {
     <>
       <div className="root">
           <Stack gap={5}>
-            <Nav refs={targetRef} scrollFunc={scrollIntoView}/>
+            <Nav scrollFunc={scrollIntoView}/>
             <section
               ref={targetRef.about}
             >

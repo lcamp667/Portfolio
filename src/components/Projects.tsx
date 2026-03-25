@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard'
 import labubu from '../assets/labubu.png'
 import { Col, Container, Image, Row } from 'react-bootstrap'
-import { container_style, title_style_left } from '../consts/consts'
+import { container_style } from '../consts/consts'
 import * as Icon from 'react-bootstrap-icons';
 
 // const col_spacing = {
@@ -15,7 +15,7 @@ const Projects = () => {
     <Container style={container_style}>
       <Row className="justify-content-center g-4">
         <Col xs={12}>
-          <h1 style={title_style_left}>My Work</h1>
+          <h1 className="title left">My Work</h1>
         </Col>
         <Col xs={12} lg={6}>
           <ProjectCard

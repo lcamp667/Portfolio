@@ -1,5 +1,5 @@
 import { Col, Container, Image, Row } from "react-bootstrap"
-import { container_style, title_style_right } from "../consts/consts"
+import { container_style } from "../consts/consts"
 import popmart from '../assets/popmart.png'
 import cbs from '../assets/consumer-behavior.png'
 
@@ -16,7 +16,7 @@ const InAction = () => {
     <Container style={container_style}>
       <Row xs={12}>
         <Col xs={12}>
-          <h1 style={title_style_right}>Lea in Action</h1>
+          <h1 className="title right">Lea in Action</h1>
         </Col>
         <Col xs={12} lg={6}>
           <Row xs={12} className="justify-content-center">

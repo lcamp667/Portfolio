@@ -6,18 +6,3 @@ export const container_style = {
     maxWidth: 768,
     borderRadius: 20
 }
-
-export const title_style = {
-  fontFamily: 'Fuzzy Bubbles',
-  textAlign: "center"
-}
-
-export const title_style_left = {
-  fontFamily: 'Fuzzy Bubbles',
-  textAlign: "left"
-}
-
-export const title_style_right = {
-  fontFamily: 'Fuzzy Bubbles',
-  textAlign: "right"
-}

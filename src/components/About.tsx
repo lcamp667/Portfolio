@@ -1,5 +1,5 @@
 import { Col, Row, Container } from 'react-bootstrap';
-import { container_style, title_style } from '../consts/consts';
+import { container_style } from '../consts/consts';
 
 interface AboutProps {
   image: string,
@@ -18,7 +18,7 @@ const About = ({image}:AboutProps) => {
           <Col xs={12} sm={12} md={6} lg={4}>
             {/* <div> */}
               <img style={img_style} src={image} />
-              <h1 style={title_style}>About Me</h1>
+              <h1 className="title center">About Me</h1>
             {/* </div> */}
           </Col>
           <Col xs={12} sm={12} md={6} lg={8}>

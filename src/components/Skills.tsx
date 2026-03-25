@@ -1,7 +1,7 @@
 import { Col, Row, Container, Image, Button } from 'react-bootstrap'
 import dmc from '../assets/digital-marketing-certification.png'
 import smm from '../assets/social-media-marketing.png'
-import { container_style, title_style_left } from '../consts/consts'
+import { container_style } from '../consts/consts'
 import * as Icon from 'react-bootstrap-icons'
 
 const img_style = {
@@ -33,7 +33,7 @@ const Skills = () => {
       <Container style={container_style} className="justify-content-center">
         <Row xs={12}>
           <Col xs={12}>
-            <h1 style={title_style_left}>Skills & Certifications</h1>
+            <h1 className="title left">Skills & Certifications</h1>
           </Col>
           <Col xs={6} className="justify-content-center">
             <Row xs={12} className="justify-content-center">

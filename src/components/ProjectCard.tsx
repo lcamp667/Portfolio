@@ -1,8 +1,8 @@
-import { Button, Col, Container, Image, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import './ProjectCard.css'
 
 interface ProjectCardProps {
-  icon: Element,
+  icon: React.ReactNode,
   title: string,
   desc: string,
   link?: string

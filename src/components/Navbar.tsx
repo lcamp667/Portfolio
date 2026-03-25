@@ -1,16 +1,16 @@
-import { Button, Col, Container, Navbar, Row } from "react-bootstrap"
-import { container_style, title_style } from "../consts/consts"
+import { Button, Col, Container, Row } from "react-bootstrap"
+import { container_style } from "../consts/consts"
 
 interface NavProps {
-  refs: Record<string, React.RefObject<HTMLDivElement | null>>,
+  // refs: Record<string, React.RefObject<HTMLDivElement | null>>,
   scrollFunc: Record<string, () => void>
 }
 
-const nav_styling = {
-  backgroundColor: 'rgba(255, 227, 241, 0.9)',
-  width: '100%',
-  borderRadius: 20
-}
+// const nav_styling = {
+//   backgroundColor: 'rgba(255, 227, 241, 0.9)',
+//   width: '100%',
+//   borderRadius: 20
+// }
 
 const button_styling = {
   width: 110,
@@ -20,7 +20,7 @@ const button_styling = {
   border: 0
 }
 
-const Nav = ({refs, scrollFunc}:NavProps) => {
+const Nav = ({scrollFunc}:NavProps) => {
 
   return (
     // <Navbar style={nav_styling}>
@@ -31,7 +31,7 @@ const Nav = ({refs, scrollFunc}:NavProps) => {
     
     <Container style={container_style}>
       <Row>
-        <h2 style={title_style}>Lea Campos' Marketing Portfolio</h2>
+        <h2 className="title center">Lea Campos' Marketing Portfolio</h2>
       </Row>
       <Row xs={12} className="justify-content-center">
         <Col xs={4} className="justify-content-center">
