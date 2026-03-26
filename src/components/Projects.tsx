@@ -33,13 +33,13 @@ const Projects = () => {
             link={"https://www.canva.com/design/DAHBXtg5qbM/Z8pN2O9ySt573Plw92Lhug/edit?utm_content=DAHBXtg5qbM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}
           />
         </Col>
-        <Col xs={12} lg={6}>
+        {/* <Col xs={12} lg={6}>
           <ProjectCard
             icon={<Icon.Book size={32} color='darkred'/>}
             title={"Independent Comic Website & Marketing"}
             desc={"Designing a website and developing an online marketing plan for an independent comic creator."}
           />
-        </Col>
+        </Col> */}
         <Col xs={12} lg={6}>
           <ProjectCard
             icon={<Icon.Building size={32} color='tan'/>}
